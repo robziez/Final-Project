@@ -7,3 +7,10 @@ function customAlert(){
 	$("#styledAlert").css("display","block").css("opacity","1");
 }
 $('input[type="submit"]').click(customAlert);
+
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
