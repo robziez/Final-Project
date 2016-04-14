@@ -1,6 +1,6 @@
-//$("input[type=submit]").click(function(){
-//alert("Thank you for your message. We'll be in touch soon!");
-//});
+$("#hamburger").on("click", function(){
+    $(".dropDown").slideToggle();
+});
 function customAlert(){
 	//getElementById.styledAlert.style.display= "block";
 	$("form").css("opacity","0.5");

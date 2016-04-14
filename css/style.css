@@ -9,6 +9,15 @@ body{
 	background-color: #E47297;
 	opacity: 1;
 }
+#hamburger{
+	display: none;
+	float: right;
+	width: 8%;
+    margin-right: 10px;
+    padding: 20px;
+    position: relative;
+    top: 5px;
+}
 header{
 	overflow: hidden;
 }
@@ -25,7 +34,7 @@ li{
 	font-size: 22px;
     list-style-type: none;
     float: left;
-    width: 18%;
+    width: 15%;
     font-family: 'Playfair Display', serif;
     text-align: center;
 }
@@ -87,8 +96,8 @@ section{
     bottom: 450px;
 }
 #about1{
-	margin-bottom: 18px;
-    margin-top: 18px;
+	margin-bottom: 0px;
+    margin-top: 10px;
 }
 #lisaImage{
 	overflow: hidden;
@@ -108,7 +117,7 @@ footer{
 }
 #aboutFooter{
 	position: relative;
-    left: 460px;
+    left: 17%;
 }
 
 /*CONTACT*/
@@ -192,7 +201,7 @@ span{
 
 /* Prevent the slideshow from flashing on load */
 #slides {
-display: none
+display: none;
 }
 
 /* Center the slideshow */
@@ -207,8 +216,29 @@ color: purple;
 }
 .slidesjs-pagination-item{
 	width: 6%;
+	position: relative;
+    bottom: 30px;
 }
-
+.slidesjs-previous{
+	z-index: 10;
+    margin-right: 83%;
+    margin-left: 2%;
+    font-size: 30px;
+    position: relative;
+    bottom: 350px;
+    background: rgba(156,28,107,.5);
+    color: white;
+    border-radius: 10%;
+}
+.slidesjs-next{
+	z-index: 10;
+    font-size: 30px;
+    position: relative;
+    bottom: 350px;
+    background: rgba(156,28,107,.5);
+    color: white;
+    border-radius: 10%;
+}
 /* Media quires for a responsive layout */
 
 /* For tablets & smart phones */
@@ -242,3 +272,123 @@ width: 724px
 width: 1170px
 }
 }
+
+/* FUNDRAISING */
+
+#fundraiser{
+	line-height: 25px;
+	border: 5px solid #FFE9E8;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 700px){
+	/* HOMEPAGE */
+	.dropDown{
+		display: none;
+		float: none;
+		width: 97%;
+	}
+	#hamburger{
+		display: block;
+		width: 100%;
+		margin: none;
+		border: none;
+	}
+	a img{
+		width: 23%;
+	}
+	ul .dropDown{
+	text-align: left;
+    position: relative;
+    right: 5%;
+	}
+	h1{
+	font-size: 38px;
+	bottom: 146px;
+    left: 6%;
+	}
+	#homepageMain {
+    height: 350px;
+    }
+    button{
+    	top: 0px;
+    	left: 21%;
+    	padding: 2%;
+    	font-size: 18px;
+    }
+    /*ABOUT*/
+
+    #caption{
+    	margin-left: 0px;
+    	position: relative;
+        top: 85px;
+        right: 38%;
+    }
+    #lisaImage{
+    	margin-left: 0px;
+    	margin-right: 2%;
+    	float: left;
+    	margin-bottom: -19%;
+    	width: 40%;
+        position: relative;
+        bottom: 129px;
+    }
+    section{
+    	float: none;
+    	margin-top: 350px;
+    	margin-left: 42%;
+    	padding: none;
+    	position: block;
+    	width: inherit;
+    }
+    #about1, #about2{
+    	width: initial;
+    }
+
+    /*CONTACT*/
+
+    form{
+    	width: 375px;
+    	position: relative;
+        bottom: 85px;
+    }
+    textarea{
+    	width: 310px;
+    }
+    h2{
+    position: relative;
+    bottom: 95px;
+    }
+
+    /*CALENDAR*/
+    .h1MediaFix{
+    font-size: 42px;
+    bottom: 150px;
+    }
+    p{
+    position: relative;
+    bottom: 80px;
+    }
+
+    /*FUNDRAISING*/
+    #aboutFooter{
+    	left: 3%;
+    }
+    #fundraiser{
+    position: relative;
+    bottom: 75px;
+    }
+
+/*PHOTOS*/
+
+    .slidesjs-previous{
+    	bottom: 150px;
+    }
+    .slidesjs-next{
+    	bottom: 150px;
+    	left: -90px;
+    }
+   }
