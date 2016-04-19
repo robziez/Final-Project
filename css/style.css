@@ -322,10 +322,10 @@ width: 1170px
     /*ABOUT*/
 
     #caption{
-    	margin-left: 0px;
+    	margin: auto;
     	position: relative;
-        top: 85px;
-        right: 38%;
+        top: 77px;
+        right: 39%;
     }
     #lisaImage{
     	margin-left: 0px;
@@ -338,7 +338,7 @@ width: 1170px
     }
     section{
     	float: none;
-    	margin-top: 350px;
+    	margin-top: 370px;
     	margin-left: 42%;
     	padding: none;
     	position: block;
@@ -382,7 +382,7 @@ width: 1170px
     bottom: 75px;
     }
 
-/*PHOTOS*/
+	/*PHOTOS*/
 
     .slidesjs-previous{
     	bottom: 150px;
