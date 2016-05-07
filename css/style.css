@@ -242,11 +242,7 @@ color: purple;
 /* Media quires for a responsive layout */
 
 /* For tablets & smart phones */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media (max-width: 767px) {
 body {
 padding-left: 10px;
 padding-right: 10px;
@@ -288,7 +284,11 @@ width: 1170px
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 700px){
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
 	/* HOMEPAGE */
 	.dropDown{
 		display: none;
