@@ -307,7 +307,8 @@ width: 1170px
 	}
 	ul .dropDown{
     position: relative;
-    right: 5%;
+    right: -15%;
+    bottom: 130px;
 	}
     li{
         font-size: 36px;
